@@ -4,7 +4,7 @@ ssh-keygen
 git --version
 
 
-=>One tine install
+=>One time install
 git config --global user.name "minheinkhant"
 
 =Check user.name
@@ -31,5 +31,8 @@ git remote add origin "git@github.com:minheinkhant21/pttsoftware.git"
 git remote -v
 
 =second step(always)
-git status
-
+git status (red color)
+git add -A
+git status (green color)
+git commit -m "first project 12/12/22"
+git push -u origin master
